@@ -13,7 +13,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        products: 'products@http://localhost:8081/remoteEntry.js'
+        productsApp: 'products@http://localhost:8081/remoteEntry.js'
       }
     })
   ]
